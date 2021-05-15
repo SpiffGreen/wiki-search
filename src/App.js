@@ -12,10 +12,10 @@ function App() {
     try {
       const response = await fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${encodeURIComponent(searchValue)}`);
       const data = await response.json();
-      console.log(data.query);
+      // console.log(data.query);
       setResult(data.query);
     } catch(err) {
-      console.log(err);
+      // console.log(err);
       alert("Sorry something went wrong");
     }
   }
