@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  max-width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.App-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+form > input {
+  padding: 2px 5px;
+  font-size: 20px;
+  width: 70%;
+}
+
+.resItem {
+  padding: 5px 2px;
+  margin: 8px 2px;
+}
+
+.result-snippet {
+  padding-left: 4px;
+}
+
+.title > a {
+  text-decoration: none;
+  margin: 5px 0;
+}
